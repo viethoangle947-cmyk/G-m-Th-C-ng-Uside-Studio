@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: var(--body-font);
+}
 html {
     scroll-padding-top: 110px;
     scroll-behavior: smooth;
@@ -45,7 +48,8 @@ html {
 .header-1 .logo p {
     width: 205px;
     height: 46px;
-    font-family: 'jokerman', sans-serif;
+    font-family: var(--body-font);
+    font-weight: 700;
     font-size: 24px;
     color: #C87D55;
     display: flex;
@@ -61,7 +65,8 @@ html {
 .menu .nav-link {
     width: 120px;
     height: 40px;
-    font-family: 'jokerman', sans-serif;
+    font-family: var(--body-font);
+    font-weight: 600;
     font-size: 24px;
     color: #C87D55;
     display: flex;
@@ -72,7 +77,8 @@ html {
 .menu .nav-link-1 {
     width: 120px;
     height: 40px;
-    font-family: 'jokerman', sans-serif;
+    font-family: var(--body-font);
+    font-weight: 600;
     font-size: 24px;
     color: #000000;
     display: flex;
@@ -402,7 +408,8 @@ html {
 .hero-content h3 {
     width: 320px;
     height: 60px;
-    font-family: 'Iosevka Charon', sans-serif;
+    font-family: var(--heading-font);
+    font-weight: 600;
     font-size: 40px;
     color: #C87D55;
     display: flex;
@@ -411,7 +418,8 @@ html {
 .hero-content h1 {
     width: 880px;
     height: 120px;
-    font-family: 'Iosevka Charon', sans-serif;
+    font-family: var(--heading-font);
+    font-weight: 600;
     font-size: 84px;
     color: #FFFFFF;
     display: flex;
@@ -420,7 +428,7 @@ html {
 .hero-content p {
     width: 710px;
     height: 130px;
-    font-family: 'Iosevka Charon', sans-serif;
+    font-family: var(--body-font);
     font-size: 28px;
     color: #FFFFFF;
     display: flex;
@@ -443,7 +451,8 @@ html {
     width: 280px;
     height: 60px;
     border-radius: 8px;
-    font-family: 'Iosevka Charon', sans-serif;
+    font-family: var(--body-font);
+    font-weight: 600;
     font-size: 26px;
     color: #FFFFFF;
     display: flex;
@@ -585,7 +594,8 @@ html {
     gap: 14px;
     margin-bottom: 16px;
     color: #238679;
-    font-family: 'Iosevka Charon', sans-serif;
+    font-family: var(--heading-font);
+    font-weight: 600;
     font-size: 34px;
 }
 .card-title h3::after {
@@ -598,7 +608,7 @@ html {
     padding-left: 20px;
     list-style-type: square;
     color: #211F1D;
-    font-family: 'Iosevka Charon', sans-serif;
+    font-family: var(--body-font);
     font-size: 17px;
     line-height: 1.45;
 }
@@ -893,6 +903,8 @@ a {
 :root {
   --bg: #f9f6f0;
   --bg-soft: #efece6;
+  --heading-font: "Playfair Display", Georgia, serif;
+  --body-font: "Be Vietnam Pro", Arial, sans-serif;
   --white: #ffffff;
   --terracotta: #c87d55;
   --teal: #288074;
@@ -901,8 +913,6 @@ a {
   --ink: #292315;
   --footer-bg: #2b1f17;
   --footer-text: #f8fafc;
-  --heading-font: "Iosevka Charon", sans-serif;
-  --body-font: "Iosevka Charon", sans-serif;
   --content-width: 1240px;
 }
 
@@ -914,7 +924,7 @@ a {
   margin: 0 auto;
 }
 .kicker {
-  font-family: var(--heading-font);
+  font-family: var(--body-font);
   font-weight: 700;
   font-size: 24px;
   color: var(--teal);
@@ -949,7 +959,7 @@ a {
   border-radius: 8px;
   box-shadow: 0 7px 24.5px rgba(200, 125, 85, 0.25);
   color: #ffffff;
-  font-family: var(--heading-font);
+  font-family: var(--body-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.4;
